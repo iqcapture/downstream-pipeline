@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Received an event') {
       steps {
-        sh 'echo \'I just received a testingCompleted event\''
+        echo 'I just received a testingCompleted event'
       }
     }
   }
