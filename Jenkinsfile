@@ -7,4 +7,7 @@ pipeline {
       }
     }
   }
+  triggers {
+    upstream(simpleMatch('testingCompleted'))
+  }
 }
